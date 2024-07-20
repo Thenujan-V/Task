@@ -1,0 +1,93 @@
+.bottom{
+    margin-top: 40px;
+    padding: 0 80px;
+    
+    h3{
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 42px;
+        letter-spacing: 0.7000002264976501px;
+        text-align: left;
+        color: var(--navBack);
+    }
+    .left{
+        p{
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: left;
+            
+            img{
+                width: 30px;
+                height: 30px;
+                top: 853px;
+                padding: 6px 0px 0px 0px;
+                gap: 0px;
+                opacity: 0px;
+                margin: 0;
+                transform: rotateY(180deg);
+            }
+        }
+        .calendar-container {
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+        }
+        
+        .date-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            img{
+                width: 24px;
+                height: 40px;
+                top: 31px;
+                left: 12px;
+                padding: 7px 0px 7px 0px;
+                gap: 0px;
+                opacity: 0px;
+                
+            }
+        }
+        
+        .date-tile {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 21px;
+            text-align: center;
+
+        }
+        
+        .date-tile.selected {
+            color: orange;
+            font-weight: bold;
+        }
+  
+  
+    }
+    .right{
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: left;
+            
+        }
+        h5{
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: left;
+            
+        }
+        .link{
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: var(--navBack);
+        }
+    }
+}

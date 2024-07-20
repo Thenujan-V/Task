@@ -1,0 +1,63 @@
+$border-color: #ccc;
+$box-shadow-color: rgba(0, 0, 0, 0.1);
+$ongoing-color: #1e90ff;
+$need-analysis-color: #ff6347;
+$examination-color: #ccc;
+$date-color: #888;
+$title-color: #555;
+
+.medicalCard {
+    padding: 16px;
+    margin: 8px;
+    width: 65vw;
+
+    .date {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+        color: rgba(136, 140, 150, 1);
+      }
+
+      .requireOpt{
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 18px;
+        text-align: right;
+        color: rgba(254, 173, 84, 1);
+      }
+      
+      .title {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 33px;
+        text-align: left;
+        
+      }
+      
+      .description {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: rgba(136, 140, 150, 1);
+      }
+      
+      
+      
+  }
+  .MedicalCard{
+    .ongoing {
+        border-left: 6px solid rgb(188, 241, 247);
+      }
+      
+      .need-analysis {
+        border-left: 6px solid rgb(250, 211, 205);
+      }
+      
+      .examination {
+        border-left: 6px solid rgba(200, 200, 200, 1);
+      }
+  }
+  
+  
